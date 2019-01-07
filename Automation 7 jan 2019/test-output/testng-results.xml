@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19636" started-at="2019-01-07T15:20:31Z" finished-at="2019-01-07T15:20:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19636" started-at="2019-01-07T15:20:31Z" finished-at="2019-01-07T15:20:51Z">
+      <class name="HomeScreen">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HomeScreen@6ee52dcd]" name="setup" is-config="true" duration-ms="17676" started-at="2019-01-07T15:20:31Z" finished-at="2019-01-07T15:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="HomeScreenViewChecked()[pri:1, instance:HomeScreen@6ee52dcd]" name="HomeScreenViewChecked" duration-ms="1073" started-at="2019-01-07T15:20:49Z" finished-at="2019-01-07T15:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeScreenViewChecked -->
+        <test-method status="PASS" signature="TapOnWeatherIcon()[pri:2, instance:HomeScreen@6ee52dcd]" name="TapOnWeatherIcon" duration-ms="854" started-at="2019-01-07T15:20:50Z" finished-at="2019-01-07T15:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TapOnWeatherIcon -->
+      </class> <!-- HomeScreen -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
