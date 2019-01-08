@@ -5,8 +5,9 @@
     <classes>
       <class name="HomeScreen">
         <methods>
-          <include name="VerifyClearTextFunctionality"/>
+          <include name="TapOnWeatherCloseIcon"/>
           <include name="setup"/>
+          <include name="TapOnWeatherIcon"/>
         </methods>
       </class> <!-- HomeScreen -->
     </classes>

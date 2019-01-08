@@ -1,41 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52308" started-at="2019-01-08T08:53:06Z" finished-at="2019-01-08T08:53:58Z">
+  <suite name="Suite" duration-ms="102796" started-at="2019-01-08T14:01:00Z" finished-at="2019-01-08T14:02:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52308" started-at="2019-01-08T08:53:06Z" finished-at="2019-01-08T08:53:58Z">
+    <test name="Test" duration-ms="102796" started-at="2019-01-08T14:01:00Z" finished-at="2019-01-08T14:02:43Z">
       <class name="HomeScreen">
-        <test-method status="PASS" signature="setup()[pri:0, instance:HomeScreen@4232c52b]" name="setup" is-config="true" duration-ms="30342" started-at="2019-01-08T08:53:06Z" finished-at="2019-01-08T08:53:36Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HomeScreen@305fd85d]" name="setup" is-config="true" duration-ms="32393" started-at="2019-01-08T14:01:00Z" finished-at="2019-01-08T14:01:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TapOnWeatherIcon()[pri:1, instance:HomeScreen@4232c52b]" name="TapOnWeatherIcon" duration-ms="4999" started-at="2019-01-08T08:53:36Z" finished-at="2019-01-08T08:53:41Z">
+        <test-method status="PASS" signature="TapOnWeatherIcon()[pri:1, instance:HomeScreen@305fd85d]" name="TapOnWeatherIcon" duration-ms="8508" started-at="2019-01-08T14:01:33Z" finished-at="2019-01-08T14:01:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TapOnWeatherIcon -->
-        <test-method status="PASS" signature="TapOnWeatherCloseIcon()[pri:2, instance:HomeScreen@4232c52b]" name="TapOnWeatherCloseIcon" duration-ms="1997" started-at="2019-01-08T08:53:41Z" finished-at="2019-01-08T08:53:43Z">
+        <test-method status="PASS" signature="TapOnWeatherCloseIcon()[pri:2, instance:HomeScreen@305fd85d]" name="TapOnWeatherCloseIcon" duration-ms="2091" started-at="2019-01-08T14:01:41Z" finished-at="2019-01-08T14:01:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TapOnWeatherCloseIcon -->
-        <test-method status="PASS" signature="TapOnBookTeeTimeSection()[pri:3, instance:HomeScreen@4232c52b]" name="TapOnBookTeeTimeSection" duration-ms="1645" started-at="2019-01-08T08:53:43Z" finished-at="2019-01-08T08:53:45Z">
+        <test-method status="PASS" signature="TapOnBookTeeTimeSection()[pri:3, instance:HomeScreen@305fd85d]" name="TapOnBookTeeTimeSection" duration-ms="1851" started-at="2019-01-08T14:01:43Z" finished-at="2019-01-08T14:01:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TapOnBookTeeTimeSection -->
-        <test-method status="PASS" signature="CheckViewBookTeeTimeSection()[pri:4, instance:HomeScreen@4232c52b]" name="CheckViewBookTeeTimeSection" duration-ms="1742" started-at="2019-01-08T08:53:45Z" finished-at="2019-01-08T08:53:47Z">
+        <test-method status="PASS" signature="CheckViewBookTeeTimeSection()[pri:4, instance:HomeScreen@305fd85d]" name="CheckViewBookTeeTimeSection" duration-ms="1641" started-at="2019-01-08T14:01:45Z" finished-at="2019-01-08T14:01:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckViewBookTeeTimeSection -->
-        <test-method status="PASS" signature="VerifySearchEditTextFunctionality()[pri:5, instance:HomeScreen@4232c52b]" name="VerifySearchEditTextFunctionality" duration-ms="8440" started-at="2019-01-08T08:53:47Z" finished-at="2019-01-08T08:53:55Z">
+        <test-method status="PASS" signature="VerifySearchEditTextFunctionality()[pri:5, instance:HomeScreen@305fd85d]" name="VerifySearchEditTextFunctionality" duration-ms="8140" started-at="2019-01-08T14:01:47Z" finished-at="2019-01-08T14:01:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchEditTextFunctionality -->
-        <test-method status="PASS" signature="VerifyClearTextFunctionality()[pri:6, instance:HomeScreen@4232c52b]" name="VerifyClearTextFunctionality" duration-ms="3096" started-at="2019-01-08T08:53:55Z" finished-at="2019-01-08T08:53:58Z">
+        <test-method status="PASS" signature="VerifyClearTextFunctionality()[pri:6, instance:HomeScreen@305fd85d]" name="VerifyClearTextFunctionality" duration-ms="2846" started-at="2019-01-08T14:01:55Z" finished-at="2019-01-08T14:01:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyClearTextFunctionality -->
+        <test-method status="PASS" signature="VerifyBackArrowFunctionality()[pri:7, instance:HomeScreen@305fd85d]" name="VerifyBackArrowFunctionality" duration-ms="1924" started-at="2019-01-08T14:01:58Z" finished-at="2019-01-08T14:02:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBackArrowFunctionality -->
+        <test-method status="PASS" signature="VerifyCalenderOpenFunctionality()[pri:8, instance:HomeScreen@305fd85d]" name="VerifyCalenderOpenFunctionality" duration-ms="3157" started-at="2019-01-08T14:02:00Z" finished-at="2019-01-08T14:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCalenderOpenFunctionality -->
+        <test-method status="PASS" signature="SelectTodayDateFunctionality()[pri:9, instance:HomeScreen@305fd85d]" name="SelectTodayDateFunctionality" duration-ms="4012" started-at="2019-01-08T14:02:03Z" finished-at="2019-01-08T14:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectTodayDateFunctionality -->
+        <test-method status="PASS" signature="selectNextDateFunctionality()[pri:10, instance:HomeScreen@305fd85d]" name="selectNextDateFunctionality" duration-ms="5139" started-at="2019-01-08T14:02:07Z" finished-at="2019-01-08T14:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectNextDateFunctionality -->
+        <test-method status="PASS" signature="checkNewDateIsApplied()[pri:11, instance:HomeScreen@305fd85d]" name="checkNewDateIsApplied" duration-ms="2523" started-at="2019-01-08T14:02:12Z" finished-at="2019-01-08T14:02:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNewDateIsApplied -->
+        <test-method status="PASS" signature="selectPlayerOption()[pri:12, instance:HomeScreen@305fd85d]" name="selectPlayerOption" duration-ms="6557" started-at="2019-01-08T14:02:15Z" finished-at="2019-01-08T14:02:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPlayerOption -->
+        <test-method status="PASS" signature="VerifySearchButtonFunctionality()[pri:13, instance:HomeScreen@305fd85d]" name="VerifySearchButtonFunctionality" duration-ms="16002" started-at="2019-01-08T14:02:21Z" finished-at="2019-01-08T14:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchButtonFunctionality -->
       </class> <!-- HomeScreen -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="CityResultScreen">
+        <test-method status="PASS" signature="setup()[pri:0, instance:CityResultScreen@458c1321]" name="setup" is-config="true" duration-ms="17" started-at="2019-01-08T14:02:37Z" finished-at="2019-01-08T14:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="VerifySearchCityScreen()[pri:14, instance:CityResultScreen@458c1321]" name="VerifySearchCityScreen" duration-ms="5934" started-at="2019-01-08T14:02:37Z" finished-at="2019-01-08T14:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchCityScreen -->
+      </class> <!-- CityResultScreen -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
