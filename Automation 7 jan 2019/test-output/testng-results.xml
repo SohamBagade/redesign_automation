@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19636" started-at="2019-01-07T15:20:31Z" finished-at="2019-01-07T15:20:51Z">
+  <suite name="Default suite" duration-ms="52308" started-at="2019-01-08T08:53:06Z" finished-at="2019-01-08T08:53:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19636" started-at="2019-01-07T15:20:31Z" finished-at="2019-01-07T15:20:51Z">
+    <test name="Default test" duration-ms="52308" started-at="2019-01-08T08:53:06Z" finished-at="2019-01-08T08:53:58Z">
       <class name="HomeScreen">
-        <test-method status="PASS" signature="setup()[pri:0, instance:HomeScreen@6ee52dcd]" name="setup" is-config="true" duration-ms="17676" started-at="2019-01-07T15:20:31Z" finished-at="2019-01-07T15:20:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HomeScreen@4232c52b]" name="setup" is-config="true" duration-ms="30342" started-at="2019-01-08T08:53:06Z" finished-at="2019-01-08T08:53:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="HomeScreenViewChecked()[pri:1, instance:HomeScreen@6ee52dcd]" name="HomeScreenViewChecked" duration-ms="1073" started-at="2019-01-07T15:20:49Z" finished-at="2019-01-07T15:20:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomeScreenViewChecked -->
-        <test-method status="PASS" signature="TapOnWeatherIcon()[pri:2, instance:HomeScreen@6ee52dcd]" name="TapOnWeatherIcon" duration-ms="854" started-at="2019-01-07T15:20:50Z" finished-at="2019-01-07T15:20:51Z">
+        <test-method status="PASS" signature="TapOnWeatherIcon()[pri:1, instance:HomeScreen@4232c52b]" name="TapOnWeatherIcon" duration-ms="4999" started-at="2019-01-08T08:53:36Z" finished-at="2019-01-08T08:53:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TapOnWeatherIcon -->
+        <test-method status="PASS" signature="TapOnWeatherCloseIcon()[pri:2, instance:HomeScreen@4232c52b]" name="TapOnWeatherCloseIcon" duration-ms="1997" started-at="2019-01-08T08:53:41Z" finished-at="2019-01-08T08:53:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TapOnWeatherCloseIcon -->
+        <test-method status="PASS" signature="TapOnBookTeeTimeSection()[pri:3, instance:HomeScreen@4232c52b]" name="TapOnBookTeeTimeSection" duration-ms="1645" started-at="2019-01-08T08:53:43Z" finished-at="2019-01-08T08:53:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TapOnBookTeeTimeSection -->
+        <test-method status="PASS" signature="CheckViewBookTeeTimeSection()[pri:4, instance:HomeScreen@4232c52b]" name="CheckViewBookTeeTimeSection" duration-ms="1742" started-at="2019-01-08T08:53:45Z" finished-at="2019-01-08T08:53:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckViewBookTeeTimeSection -->
+        <test-method status="PASS" signature="VerifySearchEditTextFunctionality()[pri:5, instance:HomeScreen@4232c52b]" name="VerifySearchEditTextFunctionality" duration-ms="8440" started-at="2019-01-08T08:53:47Z" finished-at="2019-01-08T08:53:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearchEditTextFunctionality -->
+        <test-method status="PASS" signature="VerifyClearTextFunctionality()[pri:6, instance:HomeScreen@4232c52b]" name="VerifyClearTextFunctionality" duration-ms="3096" started-at="2019-01-08T08:53:55Z" finished-at="2019-01-08T08:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClearTextFunctionality -->
       </class> <!-- HomeScreen -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

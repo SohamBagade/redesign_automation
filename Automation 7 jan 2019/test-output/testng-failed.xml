@@ -5,7 +5,7 @@
     <classes>
       <class name="HomeScreen">
         <methods>
-          <include name="HomeScreenViewChecked"/>
+          <include name="VerifyClearTextFunctionality"/>
           <include name="setup"/>
         </methods>
       </class> <!-- HomeScreen -->
