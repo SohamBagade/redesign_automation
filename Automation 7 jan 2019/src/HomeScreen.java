@@ -68,6 +68,10 @@ public class HomeScreen {
 		}
 		
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.WEATHER_ICON)).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.HOME_TITLE)).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_SECTION)).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.PLAY_ON_THE_COURSE_SECTION)).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.FIND_A_PRO_SECTION)).isDisplayed());
 		
 		new WebDriverWait(driver, 100)
 		.until(ExpectedConditions.elementToBeClickable(By.xpath(Xpath.HomeScreenPath.WEATHER_ICON))).click();

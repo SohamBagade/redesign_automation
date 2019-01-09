@@ -2,74 +2,74 @@
 <testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="102796" started-at="2019-01-08T14:01:00Z" finished-at="2019-01-08T14:02:43Z">
+  <suite name="Suite" duration-ms="104356" started-at="2019-01-08T14:15:24Z" finished-at="2019-01-08T14:17:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="102796" started-at="2019-01-08T14:01:00Z" finished-at="2019-01-08T14:02:43Z">
+    <test name="Test" duration-ms="104356" started-at="2019-01-08T14:15:24Z" finished-at="2019-01-08T14:17:09Z">
       <class name="HomeScreen">
-        <test-method status="PASS" signature="setup()[pri:0, instance:HomeScreen@305fd85d]" name="setup" is-config="true" duration-ms="32393" started-at="2019-01-08T14:01:00Z" finished-at="2019-01-08T14:01:33Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HomeScreen@305fd85d]" name="setup" is-config="true" duration-ms="31984" started-at="2019-01-08T14:15:24Z" finished-at="2019-01-08T14:15:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TapOnWeatherIcon()[pri:1, instance:HomeScreen@305fd85d]" name="TapOnWeatherIcon" duration-ms="8508" started-at="2019-01-08T14:01:33Z" finished-at="2019-01-08T14:01:41Z">
+        <test-method status="PASS" signature="TapOnWeatherIcon()[pri:1, instance:HomeScreen@305fd85d]" name="TapOnWeatherIcon" duration-ms="9121" started-at="2019-01-08T14:15:56Z" finished-at="2019-01-08T14:16:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TapOnWeatherIcon -->
-        <test-method status="PASS" signature="TapOnWeatherCloseIcon()[pri:2, instance:HomeScreen@305fd85d]" name="TapOnWeatherCloseIcon" duration-ms="2091" started-at="2019-01-08T14:01:41Z" finished-at="2019-01-08T14:01:43Z">
+        <test-method status="PASS" signature="TapOnWeatherCloseIcon()[pri:2, instance:HomeScreen@305fd85d]" name="TapOnWeatherCloseIcon" duration-ms="2286" started-at="2019-01-08T14:16:05Z" finished-at="2019-01-08T14:16:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TapOnWeatherCloseIcon -->
-        <test-method status="PASS" signature="TapOnBookTeeTimeSection()[pri:3, instance:HomeScreen@305fd85d]" name="TapOnBookTeeTimeSection" duration-ms="1851" started-at="2019-01-08T14:01:43Z" finished-at="2019-01-08T14:01:45Z">
+        <test-method status="PASS" signature="TapOnBookTeeTimeSection()[pri:3, instance:HomeScreen@305fd85d]" name="TapOnBookTeeTimeSection" duration-ms="1673" started-at="2019-01-08T14:16:08Z" finished-at="2019-01-08T14:16:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TapOnBookTeeTimeSection -->
-        <test-method status="PASS" signature="CheckViewBookTeeTimeSection()[pri:4, instance:HomeScreen@305fd85d]" name="CheckViewBookTeeTimeSection" duration-ms="1641" started-at="2019-01-08T14:01:45Z" finished-at="2019-01-08T14:01:47Z">
+        <test-method status="PASS" signature="CheckViewBookTeeTimeSection()[pri:4, instance:HomeScreen@305fd85d]" name="CheckViewBookTeeTimeSection" duration-ms="1616" started-at="2019-01-08T14:16:09Z" finished-at="2019-01-08T14:16:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckViewBookTeeTimeSection -->
-        <test-method status="PASS" signature="VerifySearchEditTextFunctionality()[pri:5, instance:HomeScreen@305fd85d]" name="VerifySearchEditTextFunctionality" duration-ms="8140" started-at="2019-01-08T14:01:47Z" finished-at="2019-01-08T14:01:55Z">
+        <test-method status="PASS" signature="VerifySearchEditTextFunctionality()[pri:5, instance:HomeScreen@305fd85d]" name="VerifySearchEditTextFunctionality" duration-ms="8660" started-at="2019-01-08T14:16:11Z" finished-at="2019-01-08T14:16:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchEditTextFunctionality -->
-        <test-method status="PASS" signature="VerifyClearTextFunctionality()[pri:6, instance:HomeScreen@305fd85d]" name="VerifyClearTextFunctionality" duration-ms="2846" started-at="2019-01-08T14:01:55Z" finished-at="2019-01-08T14:01:58Z">
+        <test-method status="PASS" signature="VerifyClearTextFunctionality()[pri:6, instance:HomeScreen@305fd85d]" name="VerifyClearTextFunctionality" duration-ms="3123" started-at="2019-01-08T14:16:20Z" finished-at="2019-01-08T14:16:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyClearTextFunctionality -->
-        <test-method status="PASS" signature="VerifyBackArrowFunctionality()[pri:7, instance:HomeScreen@305fd85d]" name="VerifyBackArrowFunctionality" duration-ms="1924" started-at="2019-01-08T14:01:58Z" finished-at="2019-01-08T14:02:00Z">
+        <test-method status="PASS" signature="VerifyBackArrowFunctionality()[pri:7, instance:HomeScreen@305fd85d]" name="VerifyBackArrowFunctionality" duration-ms="2233" started-at="2019-01-08T14:16:23Z" finished-at="2019-01-08T14:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyBackArrowFunctionality -->
-        <test-method status="PASS" signature="VerifyCalenderOpenFunctionality()[pri:8, instance:HomeScreen@305fd85d]" name="VerifyCalenderOpenFunctionality" duration-ms="3157" started-at="2019-01-08T14:02:00Z" finished-at="2019-01-08T14:02:03Z">
+        <test-method status="PASS" signature="VerifyCalenderOpenFunctionality()[pri:8, instance:HomeScreen@305fd85d]" name="VerifyCalenderOpenFunctionality" duration-ms="3413" started-at="2019-01-08T14:16:25Z" finished-at="2019-01-08T14:16:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCalenderOpenFunctionality -->
-        <test-method status="PASS" signature="SelectTodayDateFunctionality()[pri:9, instance:HomeScreen@305fd85d]" name="SelectTodayDateFunctionality" duration-ms="4012" started-at="2019-01-08T14:02:03Z" finished-at="2019-01-08T14:02:07Z">
+        <test-method status="PASS" signature="SelectTodayDateFunctionality()[pri:9, instance:HomeScreen@305fd85d]" name="SelectTodayDateFunctionality" duration-ms="3313" started-at="2019-01-08T14:16:28Z" finished-at="2019-01-08T14:16:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SelectTodayDateFunctionality -->
-        <test-method status="PASS" signature="selectNextDateFunctionality()[pri:10, instance:HomeScreen@305fd85d]" name="selectNextDateFunctionality" duration-ms="5139" started-at="2019-01-08T14:02:07Z" finished-at="2019-01-08T14:02:12Z">
+        <test-method status="PASS" signature="selectNextDateFunctionality()[pri:10, instance:HomeScreen@305fd85d]" name="selectNextDateFunctionality" duration-ms="5450" started-at="2019-01-08T14:16:32Z" finished-at="2019-01-08T14:16:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectNextDateFunctionality -->
-        <test-method status="PASS" signature="checkNewDateIsApplied()[pri:11, instance:HomeScreen@305fd85d]" name="checkNewDateIsApplied" duration-ms="2523" started-at="2019-01-08T14:02:12Z" finished-at="2019-01-08T14:02:15Z">
+        <test-method status="PASS" signature="checkNewDateIsApplied()[pri:11, instance:HomeScreen@305fd85d]" name="checkNewDateIsApplied" duration-ms="2542" started-at="2019-01-08T14:16:37Z" finished-at="2019-01-08T14:16:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNewDateIsApplied -->
-        <test-method status="PASS" signature="selectPlayerOption()[pri:12, instance:HomeScreen@305fd85d]" name="selectPlayerOption" duration-ms="6557" started-at="2019-01-08T14:02:15Z" finished-at="2019-01-08T14:02:21Z">
+        <test-method status="PASS" signature="selectPlayerOption()[pri:12, instance:HomeScreen@305fd85d]" name="selectPlayerOption" duration-ms="6945" started-at="2019-01-08T14:16:40Z" finished-at="2019-01-08T14:16:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPlayerOption -->
-        <test-method status="PASS" signature="VerifySearchButtonFunctionality()[pri:13, instance:HomeScreen@305fd85d]" name="VerifySearchButtonFunctionality" duration-ms="16002" started-at="2019-01-08T14:02:21Z" finished-at="2019-01-08T14:02:37Z">
+        <test-method status="PASS" signature="VerifySearchButtonFunctionality()[pri:13, instance:HomeScreen@305fd85d]" name="VerifySearchButtonFunctionality" duration-ms="15911" started-at="2019-01-08T14:16:47Z" finished-at="2019-01-08T14:17:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchButtonFunctionality -->
       </class> <!-- HomeScreen -->
       <class name="CityResultScreen">
-        <test-method status="PASS" signature="setup()[pri:0, instance:CityResultScreen@458c1321]" name="setup" is-config="true" duration-ms="17" started-at="2019-01-08T14:02:37Z" finished-at="2019-01-08T14:02:37Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:CityResultScreen@458c1321]" name="setup" is-config="true" duration-ms="19" started-at="2019-01-08T14:17:02Z" finished-at="2019-01-08T14:17:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="VerifySearchCityScreen()[pri:14, instance:CityResultScreen@458c1321]" name="VerifySearchCityScreen" duration-ms="5934" started-at="2019-01-08T14:02:37Z" finished-at="2019-01-08T14:02:43Z">
+        <test-method status="PASS" signature="VerifySearchCityScreen()[pri:14, instance:CityResultScreen@458c1321]" name="VerifySearchCityScreen" duration-ms="6032" started-at="2019-01-08T14:17:03Z" finished-at="2019-01-08T14:17:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySearchCityScreen -->
