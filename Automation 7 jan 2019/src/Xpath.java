@@ -48,9 +48,22 @@ public class Xpath {
 		public static final String FAV_HEADER_ICON = "//android.widget.ImageView[@resource-id='"+v+":id/collapsing_header_fav_btn']";
 		public static final String ALERT_HEADER_ICON = "//android.widget.ImageView[@resource-id='"+v+":id/collapsing_header_price_btn']";
 		public static final String FILTER_HEADER_ICON = "//android.widget.ImageView[@resource-id='"+v+":id/filter_menu']";
-		public static final String CITY_MAP_VIEW_BUTTON = "//android.widget.Button[@resource-id='"+v+":id/cvMapViewTab']";
+		public static final String CITY_MAP_VIEW_BUTTON = "//android.widget.Button[@resource-id='"+v+":id/cvMapViewTab'][@text='Map view']";
+		public static final String CITY_LIST_VIEW_BUTTON = "//android.widget.Button[@resource-id='"+v+":id/cvMapViewTab'][@text='List view']";
+		public static final String MAP_VIEW_PAGER = "//android.support.v4.view.ViewPager[@resource-id='"+v+":id/cityListViewPager']";
 
 		
+	}
+	
+	public static class LoginScreenPath{
+		
+		public static final String LOGIN_EMAIL_EDIT_TEXT = "//android.widget.EditText[@resource-id='"+v+":id/signIn_email_edittext']";
+		public static final String LOGIN_PASSWORD_EDIT_TEXT = "//android.widget.EditText[@resource-id='"+v+":id/signIn_password_edittext']";
+		public static final String LOGIN_SHOW_TEXT = "//android.widget.EditText[@resource-id='"+v+":id/signIn_password_edittext']";
+		public static final String LOGIN_SIGN_IN_BUTTON = "//android.widget.Button[@resource-id='"+v+":id/signIn_btnView']";
+		
+		public static final String CITY_DISTANCE_TEXT = "//android.widget.TextView[@resource-id='"+v+":id/tvCourseDistance']";
+		public static final String CITY_STARTING_FROM_TEXT = "//android.widget.TextView[@resource-id='"+v+":id/list_item_starting_label']";
 	}
 	
 	

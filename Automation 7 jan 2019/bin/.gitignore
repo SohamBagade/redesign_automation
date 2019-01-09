@@ -4,3 +4,6 @@
 /Xpath.class
 /ConstantVariables.class
 /CityResultScreen.class
+/Login.class
+/Xpath$LoginScreenPath.class
+/Utils.class

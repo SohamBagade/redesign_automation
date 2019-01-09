@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">20 methods, 2 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="tapOnWeatherCloseIcon">tapOnWeatherCloseIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="tapOnWeatherIcon">tapOnWeatherIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,62 +121,27 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="CheckViewBookTeeTimeSection">CheckViewBookTeeTimeSection</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CityResultScreen" hash-for-method="checkMapTabFunctionality">checkMapTabFunctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="SelectTodayDateFunctionality">SelectTodayDateFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="TapOnBookTeeTimeSection">TapOnBookTeeTimeSection</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="TapOnWeatherCloseIcon">TapOnWeatherCloseIcon</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="TapOnWeatherIcon">TapOnWeatherIcon</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="VerifyBackArrowFunctionality">VerifyBackArrowFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="VerifyCalenderOpenFunctionality">VerifyCalenderOpenFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="VerifyClearTextFunctionality">VerifyClearTextFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="VerifySearchButtonFunctionality">VerifySearchButtonFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CityResultScreen" hash-for-method="VerifySearchCityScreen">VerifySearchCityScreen</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="VerifySearchEditTextFunctionality">VerifySearchEditTextFunctionality</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CityResultScreen" hash-for-method="checkMapViewUI">checkMapViewUI</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="checkNewDateIsApplied">checkNewDateIsApplied</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="checkViewBookTeeTimeSection">checkViewBookTeeTimeSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CityResultScreen" hash-for-method="lOGIN">lOGIN</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -168,6 +152,61 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="selectPlayerOption">selectPlayerOption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="selectTodayDateFunctionality">selectTodayDateFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CityResultScreen" hash-for-method="swipeViewPager">swipeViewPager</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="tapOnBookTeeTimeSection">tapOnBookTeeTimeSection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="verifyBackArrowFunctionality">verifyBackArrowFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="verifyCalenderOpenFunctionality">verifyCalenderOpenFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="verifyClearTextFunctionality">verifyClearTextFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CityResultScreen" hash-for-method="verifyFavIconFunctionality">verifyFavIconFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CityResultScreen" hash-for-method="verifyNotificationIconFunctionality">verifyNotificationIconFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="verifySearchButtonFunctionality">verifySearchButtonFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="CityResultScreen" hash-for-method="verifySearchCityScreen">verifySearchCityScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="HomeScreen" hash-for-method="verifySearchEditTextFunctionality">verifySearchEditTextFunctionality</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -182,6 +221,100 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">HomeScreen</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tapOnWeatherCloseIcon">
+                  </a> <!-- tapOnWeatherCloseIcon -->
+                  <span class="method-name">tapOnWeatherCloseIcon</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-2STE37I&apos;, ip: &apos;192.168.1.32&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.supremegolf.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ZX1D63VG9R, version=5.0, platform=LINUX, deviceUDID=ZX1D63VG9R, appActivity=ui.activity.SplashActivity, desired={appPackage=com.supremegolf.app, appActivity=ui.activity.SplashActivity, platformName=Android, deviceName=Device, version=5.0}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=XT1068, deviceManufacturer=motorola, platformName=LINUX}]
+Session ID: 6f99be07-e0a0-4c33-abf1-ad104494c887
+*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=&apos;com.supremegolf.app:id/onBackPressed&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at HomeScreen.tapOnWeatherCloseIcon(HomeScreen.java:49)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tapOnWeatherIcon">
+                  </a> <!-- tapOnWeatherIcon -->
+                  <span class="method-name">tapOnWeatherIcon</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;DESKTOP-2STE37I&apos;, ip: &apos;192.168.1.32&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.supremegolf.app, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=ZX1D63VG9R, version=5.0, platform=LINUX, deviceUDID=ZX1D63VG9R, appActivity=ui.activity.SplashActivity, desired={appPackage=com.supremegolf.app, appActivity=ui.activity.SplashActivity, platformName=Android, deviceName=Device, version=5.0}, platformVersion=6.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=XT1068, deviceManufacturer=motorola, platformName=LINUX}]
+Session ID: 6f99be07-e0a0-4c33-abf1-ad104494c887
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@resource-id=&apos;com.supremegolf.app:id/ivWeather&apos;]}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:89)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:140)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at HomeScreen.tapOnWeatherIcon(HomeScreen.java:39)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -190,79 +323,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CheckViewBookTeeTimeSection">
-                  </a> <!-- CheckViewBookTeeTimeSection -->
-                  <span class="method-name">CheckViewBookTeeTimeSection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="SelectTodayDateFunctionality">
-                  </a> <!-- SelectTodayDateFunctionality -->
-                  <span class="method-name">SelectTodayDateFunctionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TapOnBookTeeTimeSection">
-                  </a> <!-- TapOnBookTeeTimeSection -->
-                  <span class="method-name">TapOnBookTeeTimeSection</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TapOnWeatherCloseIcon">
-                  </a> <!-- TapOnWeatherCloseIcon -->
-                  <span class="method-name">TapOnWeatherCloseIcon</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="TapOnWeatherIcon">
-                  </a> <!-- TapOnWeatherIcon -->
-                  <span class="method-name">TapOnWeatherIcon</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyBackArrowFunctionality">
-                  </a> <!-- VerifyBackArrowFunctionality -->
-                  <span class="method-name">VerifyBackArrowFunctionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyCalenderOpenFunctionality">
-                  </a> <!-- VerifyCalenderOpenFunctionality -->
-                  <span class="method-name">VerifyCalenderOpenFunctionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyClearTextFunctionality">
-                  </a> <!-- VerifyClearTextFunctionality -->
-                  <span class="method-name">VerifyClearTextFunctionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifySearchButtonFunctionality">
-                  </a> <!-- VerifySearchButtonFunctionality -->
-                  <span class="method-name">VerifySearchButtonFunctionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifySearchEditTextFunctionality">
-                  </a> <!-- VerifySearchEditTextFunctionality -->
-                  <span class="method-name">VerifySearchEditTextFunctionality</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="checkNewDateIsApplied">
                   </a> <!-- checkNewDateIsApplied -->
                   <span class="method-name">checkNewDateIsApplied</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkViewBookTeeTimeSection">
+                  </a> <!-- checkViewBookTeeTimeSection -->
+                  <span class="method-name">checkViewBookTeeTimeSection</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -279,6 +349,55 @@
                   <span class="method-name">selectPlayerOption</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectTodayDateFunctionality">
+                  </a> <!-- selectTodayDateFunctionality -->
+                  <span class="method-name">selectTodayDateFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tapOnBookTeeTimeSection">
+                  </a> <!-- tapOnBookTeeTimeSection -->
+                  <span class="method-name">tapOnBookTeeTimeSection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBackArrowFunctionality">
+                  </a> <!-- verifyBackArrowFunctionality -->
+                  <span class="method-name">verifyBackArrowFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCalenderOpenFunctionality">
+                  </a> <!-- verifyCalenderOpenFunctionality -->
+                  <span class="method-name">verifyCalenderOpenFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClearTextFunctionality">
+                  </a> <!-- verifyClearTextFunctionality -->
+                  <span class="method-name">verifyClearTextFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchButtonFunctionality">
+                  </a> <!-- verifySearchButtonFunctionality -->
+                  <span class="method-name">verifySearchButtonFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchEditTextFunctionality">
+                  </a> <!-- verifySearchEditTextFunctionality -->
+                  <span class="method-name">verifySearchEditTextFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
@@ -289,9 +408,51 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifySearchCityScreen">
-                  </a> <!-- VerifySearchCityScreen -->
-                  <span class="method-name">VerifySearchCityScreen</span>
+                  <a name="checkMapTabFunctionality">
+                  </a> <!-- checkMapTabFunctionality -->
+                  <span class="method-name">checkMapTabFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMapViewUI">
+                  </a> <!-- checkMapViewUI -->
+                  <span class="method-name">checkMapViewUI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lOGIN">
+                  </a> <!-- lOGIN -->
+                  <span class="method-name">lOGIN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="swipeViewPager">
+                  </a> <!-- swipeViewPager -->
+                  <span class="method-name">swipeViewPager</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFavIconFunctionality">
+                  </a> <!-- verifyFavIconFunctionality -->
+                  <span class="method-name">verifyFavIconFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNotificationIconFunctionality">
+                  </a> <!-- verifyNotificationIconFunctionality -->
+                  <span class="method-name">verifyNotificationIconFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchCityScreen">
+                  </a> <!-- verifySearchCityScreen -->
+                  <span class="method-name">verifySearchCityScreen</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -349,63 +510,87 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(14);
+data.addRows(20);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'VerifySearchButtonFunctionality')
-data.setCell(0, 2, 'HomeScreen')
-data.setCell(0, 3, 16002);
+data.setCell(0, 1, 'lOGIN')
+data.setCell(0, 2, 'CityResultScreen')
+data.setCell(0, 3, 17630);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'TapOnWeatherIcon')
+data.setCell(1, 1, 'verifySearchButtonFunctionality')
 data.setCell(1, 2, 'HomeScreen')
-data.setCell(1, 3, 8508);
+data.setCell(1, 3, 15811);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifySearchEditTextFunctionality')
+data.setCell(2, 1, 'selectNextDateFunctionality')
 data.setCell(2, 2, 'HomeScreen')
-data.setCell(2, 3, 8140);
+data.setCell(2, 3, 10414);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'selectPlayerOption')
-data.setCell(3, 2, 'HomeScreen')
-data.setCell(3, 3, 6557);
+data.setCell(3, 1, 'verifyNotificationIconFunctionality')
+data.setCell(3, 2, 'CityResultScreen')
+data.setCell(3, 3, 10048);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'VerifySearchCityScreen')
-data.setCell(4, 2, 'CityResultScreen')
-data.setCell(4, 3, 5934);
+data.setCell(4, 1, 'verifySearchEditTextFunctionality')
+data.setCell(4, 2, 'HomeScreen')
+data.setCell(4, 3, 9153);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'selectNextDateFunctionality')
+data.setCell(5, 1, 'tapOnWeatherIcon')
 data.setCell(5, 2, 'HomeScreen')
-data.setCell(5, 3, 5139);
+data.setCell(5, 3, 7435);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'SelectTodayDateFunctionality')
+data.setCell(6, 1, 'selectPlayerOption')
 data.setCell(6, 2, 'HomeScreen')
-data.setCell(6, 3, 4012);
+data.setCell(6, 3, 6702);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'VerifyCalenderOpenFunctionality')
-data.setCell(7, 2, 'HomeScreen')
-data.setCell(7, 3, 3157);
+data.setCell(7, 1, 'checkMapTabFunctionality')
+data.setCell(7, 2, 'CityResultScreen')
+data.setCell(7, 3, 5944);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'VerifyClearTextFunctionality')
+data.setCell(8, 1, 'checkNewDateIsApplied')
 data.setCell(8, 2, 'HomeScreen')
-data.setCell(8, 3, 2846);
+data.setCell(8, 3, 5270);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'checkNewDateIsApplied')
-data.setCell(9, 2, 'HomeScreen')
-data.setCell(9, 3, 2523);
+data.setCell(9, 1, 'verifySearchCityScreen')
+data.setCell(9, 2, 'CityResultScreen')
+data.setCell(9, 3, 4773);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'TapOnWeatherCloseIcon')
+data.setCell(10, 1, 'verifyCalenderOpenFunctionality')
 data.setCell(10, 2, 'HomeScreen')
-data.setCell(10, 3, 2091);
+data.setCell(10, 3, 3825);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'VerifyBackArrowFunctionality')
+data.setCell(11, 1, 'selectTodayDateFunctionality')
 data.setCell(11, 2, 'HomeScreen')
-data.setCell(11, 3, 1924);
+data.setCell(11, 3, 3459);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'TapOnBookTeeTimeSection')
+data.setCell(12, 1, 'verifyClearTextFunctionality')
 data.setCell(12, 2, 'HomeScreen')
-data.setCell(12, 3, 1851);
+data.setCell(12, 3, 3287);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'CheckViewBookTeeTimeSection')
+data.setCell(13, 1, 'verifyBackArrowFunctionality')
 data.setCell(13, 2, 'HomeScreen')
-data.setCell(13, 3, 1641);
+data.setCell(13, 3, 2501);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkMapViewUI')
+data.setCell(14, 2, 'CityResultScreen')
+data.setCell(14, 3, 2316);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkViewBookTeeTimeSection')
+data.setCell(15, 2, 'HomeScreen')
+data.setCell(15, 3, 2309);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tapOnBookTeeTimeSection')
+data.setCell(16, 2, 'HomeScreen')
+data.setCell(16, 3, 1418);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyFavIconFunctionality')
+data.setCell(17, 2, 'CityResultScreen')
+data.setCell(17, 3, 1315);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'swipeViewPager')
+data.setCell(18, 2, 'CityResultScreen')
+data.setCell(18, 3, 1237);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'tapOnWeatherCloseIcon')
+data.setCell(19, 2, 'HomeScreen')
+data.setCell(19, 3, 314);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -442,67 +627,95 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">TapOnWeatherIcon</span>
-                <span class="method-start">32408 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tapOnWeatherIcon</span>
+                <span class="method-start">39476 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TapOnWeatherCloseIcon</span>
-                <span class="method-start">40926 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tapOnWeatherCloseIcon</span>
+                <span class="method-start">46943 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">TapOnBookTeeTimeSection</span>
-                <span class="method-start">43018 ms</span>
+                <span class="method-name">tapOnBookTeeTimeSection</span>
+                <span class="method-start">47260 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">CheckViewBookTeeTimeSection</span>
-                <span class="method-start">44873 ms</span>
+                <span class="method-name">checkViewBookTeeTimeSection</span>
+                <span class="method-start">48680 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">VerifySearchEditTextFunctionality</span>
-                <span class="method-start">46515 ms</span>
+                <span class="method-name">verifySearchEditTextFunctionality</span>
+                <span class="method-start">50990 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">VerifyClearTextFunctionality</span>
-                <span class="method-start">54659 ms</span>
+                <span class="method-name">verifyClearTextFunctionality</span>
+                <span class="method-start">60144 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">VerifyBackArrowFunctionality</span>
-                <span class="method-start">57509 ms</span>
+                <span class="method-name">verifyBackArrowFunctionality</span>
+                <span class="method-start">63432 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">VerifyCalenderOpenFunctionality</span>
-                <span class="method-start">59436 ms</span>
+                <span class="method-name">verifyCalenderOpenFunctionality</span>
+                <span class="method-start">65934 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">SelectTodayDateFunctionality</span>
-                <span class="method-start">62594 ms</span>
+                <span class="method-name">selectTodayDateFunctionality</span>
+                <span class="method-start">69761 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectNextDateFunctionality</span>
-                <span class="method-start">66608 ms</span>
+                <span class="method-start">73221 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkNewDateIsApplied</span>
-                <span class="method-start">71747 ms</span>
+                <span class="method-start">83636 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">selectPlayerOption</span>
-                <span class="method-start">74271 ms</span>
+                <span class="method-start">88907 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">VerifySearchButtonFunctionality</span>
-                <span class="method-start">80830 ms</span>
+                <span class="method-name">verifySearchButtonFunctionality</span>
+                <span class="method-start">95609 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">CityResultScreen</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">96836 ms</span>
+                <span class="method-start">111421 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">VerifySearchCityScreen</span>
-                <span class="method-start">96853 ms</span>
+                <span class="method-name">verifySearchCityScreen</span>
+                <span class="method-start">111428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFavIconFunctionality</span>
+                <span class="method-start">116202 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">lOGIN</span>
+                <span class="method-start">117518 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyNotificationIconFunctionality</span>
+                <span class="method-start">135149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkMapTabFunctionality</span>
+                <span class="method-start">145197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkMapViewUI</span>
+                <span class="method-start">151142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">swipeViewPager</span>
+                <span class="method-start">153459 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

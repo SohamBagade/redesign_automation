@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="HomeScreen">
+      <class name="CityResultScreen">
         <methods>
-          <include name="TapOnWeatherCloseIcon"/>
+          <include name="verifyFavIconFunctionality"/>
+          <include name="lOGIN"/>
+          <include name="verifySearchCityScreen"/>
           <include name="setup"/>
-          <include name="TapOnWeatherIcon"/>
+          <include name="verifyNotificationIconFunctionality"/>
         </methods>
-      </class> <!-- HomeScreen -->
+      </class> <!-- CityResultScreen -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

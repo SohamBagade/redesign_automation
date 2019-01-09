@@ -18,47 +18,16 @@ public class HomeScreen {
 	
 	static AndroidDriver<AndroidElement> driver;
 	String newDate;
+	Utils scroll;
 
 	@BeforeClass
 	public void setup() throws Exception {
 		driver = BaseClass.getDriver();
-	}
-	
-	
-	public void scrollVertically() throws IOException, InterruptedException {
-		Thread.sleep(100);
-		
-		Dimension size = driver.manage().window().getSize();
-		int starty = (int) (size.height * 0.80);
-		int endy = (int) (size.height * 0.20);
-		int startx = size.width / 2;
-		
-		(new TouchAction(driver))
-		  .press(startx, starty)
-		  .waitAction(Duration.ofMillis(3000))
-		  .moveTo(startx , endy)
-		  .release()
-		  .perform();
-	}
-	
-	public void scrollVerticallyUpword() throws IOException, InterruptedException {
-		Thread.sleep(100);
-		
-		Dimension size = driver.manage().window().getSize();
-		int starty = (int) (size.height * 0.80);
-		int endy = (int) (size.height * 0.20);
-		int startx = size.width / 2;
-		
-		(new TouchAction(driver))
-		  .press(startx, endy)
-		  .waitAction(Duration.ofMillis(3000))
-		  .moveTo(startx , starty)
-		  .release()
-		  .perform();
+		scroll = new Utils();
 	}
 
 	@Test(priority = 1)
-	public void TapOnWeatherIcon() throws InterruptedException {
+	public void tapOnWeatherIcon() throws InterruptedException {
 		
 		if(driver.findElement(By.xpath(Xpath.HomeScreenPath.ALLOW_BUTTON)).isDisplayed())
 		{
@@ -76,7 +45,7 @@ public class HomeScreen {
 	
 	
 	@Test(priority = 2)
-	public void TapOnWeatherCloseIcon() {
+	public void tapOnWeatherCloseIcon() {
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.WEATHER_CLOSE_ICON)).isDisplayed());
 		
 		new WebDriverWait(driver, 100)
@@ -84,7 +53,7 @@ public class HomeScreen {
 	}
 	
 	@Test(priority = 3)
-	public void TapOnBookTeeTimeSection() {
+	public void tapOnBookTeeTimeSection() {
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_SECTION)).isDisplayed());
 		
 		new WebDriverWait(driver, 100)
@@ -92,7 +61,7 @@ public class HomeScreen {
 	}
 	
 	@Test(priority = 4)
-	public void CheckViewBookTeeTimeSection() {
+	public void checkViewBookTeeTimeSection() {
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_TEXT)).isDisplayed());
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_SEARCH_EDIT_TEXT)).isDisplayed());
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_DATE_TEXT)).isDisplayed());
@@ -101,7 +70,7 @@ public class HomeScreen {
 	}
 	
 	@Test(priority = 5)
-	public void VerifySearchEditTextFunctionality() {
+	public void verifySearchEditTextFunctionality() {
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_SEARCH_EDIT_TEXT)).isDisplayed());
 		
 		new WebDriverWait(driver, 100)
@@ -114,7 +83,7 @@ public class HomeScreen {
 	}
 	
 	@Test(priority = 6)
-	public void VerifyClearTextFunctionality() {
+	public void verifyClearTextFunctionality() {
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_CROSS)).isDisplayed());
 		
 		new WebDriverWait(driver, 100)
@@ -126,7 +95,7 @@ public class HomeScreen {
 	}
 	
 	@Test(priority = 7)
-	public void VerifyBackArrowFunctionality() {
+	public void verifyBackArrowFunctionality() {
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_EDIT_TEXT_BACK_ARROW)).isDisplayed());
 		
 		new WebDriverWait(driver, 100)
@@ -137,7 +106,7 @@ public class HomeScreen {
 	}
 	
 	@Test(priority = 8)
-	public void VerifyCalenderOpenFunctionality() {
+	public void verifyCalenderOpenFunctionality() {
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_DATE_TEXT)).isDisplayed());
 		
 		new WebDriverWait(driver, 100)
@@ -154,9 +123,10 @@ public class HomeScreen {
 	}
 	
 	@Test(priority = 9)
-	public void SelectTodayDateFunctionality() throws IOException, InterruptedException {
+	public void selectTodayDateFunctionality() throws IOException, InterruptedException {
 		
-		scrollVertically();
+		
+		scroll.scrollVertically(driver);
 		
 		for(int i=14; i<=38 ;i++)
 		{
@@ -186,7 +156,7 @@ public class HomeScreen {
 	@Test(priority = 10)
 	public void selectNextDateFunctionality() throws IOException, InterruptedException
 	{
-		scrollVerticallyUpword();
+		scroll.scrollVerticallyUpword(driver);
 		
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_DATE_TEXT)).isDisplayed());
 		
@@ -213,7 +183,7 @@ public class HomeScreen {
 	@Test(priority = 11)
 	public void checkNewDateIsApplied() throws IOException, InterruptedException
 	{
-		scrollVerticallyUpword();
+		scroll.scrollVerticallyUpword(driver);
 		
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_NEW_DATE_TEXT)).isDisplayed());
 		
@@ -246,7 +216,7 @@ public class HomeScreen {
 	
 	
 	@Test(priority = 13)
-	public void VerifySearchButtonFunctionality() {
+	public void verifySearchButtonFunctionality() {
 		Assert.assertTrue(driver.findElement(By.xpath(Xpath.HomeScreenPath.BOOK_TEE_TIME_SEARCH_EDIT_TEXT)).isDisplayed());
 		
 		new WebDriverWait(driver, 100)
