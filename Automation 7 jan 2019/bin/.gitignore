@@ -1,4 +1,7 @@
-/BaseClass.class
-/HomeScreen.class
-/Xpath$HomeScreenPath.class
-/Xpath.class
+/Xpath$SweepstakesContentDescScreenPath.class
+/Xpath$SweepstakesEmailScreenPath.class
+/ConstantVariables.class
+/Xpath$SweepstakesPasswordScreenPath.class
+/Xpath$SweepstakesWhoAreYouScreenPath.class
+/Utils.class
+/Xpath$LoginScreenPath.class

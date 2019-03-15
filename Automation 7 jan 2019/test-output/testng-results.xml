@@ -1,25 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="22" passed="22">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19636" started-at="2019-01-07T15:20:31Z" finished-at="2019-01-07T15:20:51Z">
+  <suite name="Suite" duration-ms="73520" started-at="2019-03-15T12:48:07Z" finished-at="2019-03-15T12:49:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19636" started-at="2019-01-07T15:20:31Z" finished-at="2019-01-07T15:20:51Z">
-      <class name="HomeScreen">
-        <test-method status="PASS" signature="setup()[pri:0, instance:HomeScreen@6ee52dcd]" name="setup" is-config="true" duration-ms="17676" started-at="2019-01-07T15:20:31Z" finished-at="2019-01-07T15:20:49Z">
+    <test name="Test" duration-ms="73520" started-at="2019-03-15T12:48:07Z" finished-at="2019-03-15T12:49:20Z">
+      <class name="Sweepstakes">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Sweepstakes@57e1b0c]" name="setup" is-config="true" duration-ms="7" started-at="2019-03-15T12:48:26Z" finished-at="2019-03-15T12:48:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="HomeScreenViewChecked()[pri:1, instance:HomeScreen@6ee52dcd]" name="HomeScreenViewChecked" duration-ms="1073" started-at="2019-01-07T15:20:49Z" finished-at="2019-01-07T15:20:50Z">
+        <test-method status="PASS" signature="tapOnSweepstakesBanner()[pri:3, instance:Sweepstakes@57e1b0c]" name="tapOnSweepstakesBanner" duration-ms="569" started-at="2019-03-15T12:48:26Z" finished-at="2019-03-15T12:48:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapOnSweepstakesBanner -->
+        <test-method status="PASS" signature="checkSweepstakesContentDescAllViewIsDisplayed()[pri:4, instance:Sweepstakes@57e1b0c]" name="checkSweepstakesContentDescAllViewIsDisplayed" duration-ms="2035" started-at="2019-03-15T12:48:27Z" finished-at="2019-03-15T12:48:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSweepstakesContentDescAllViewIsDisplayed -->
+        <test-method status="PASS" signature="tapOnEnterSweepStakes()[pri:5, instance:Sweepstakes@57e1b0c]" name="tapOnEnterSweepStakes" duration-ms="435" started-at="2019-03-15T12:48:29Z" finished-at="2019-03-15T12:48:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapOnEnterSweepStakes -->
+        <test-method status="PASS" signature="checkSweepstakeEmailScreenUI()[pri:6, instance:Sweepstakes@57e1b0c]" name="checkSweepstakeEmailScreenUI" duration-ms="1251" started-at="2019-03-15T12:48:29Z" finished-at="2019-03-15T12:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSweepstakeEmailScreenUI -->
+        <test-method status="PASS" signature="enterEmail()[pri:7, instance:Sweepstakes@57e1b0c]" name="enterEmail" duration-ms="6591" started-at="2019-03-15T12:48:30Z" finished-at="2019-03-15T12:48:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmail -->
+        <test-method status="PASS" signature="tapOnEmailContinueButton()[pri:8, instance:Sweepstakes@57e1b0c]" name="tapOnEmailContinueButton" duration-ms="818" started-at="2019-03-15T12:48:37Z" finished-at="2019-03-15T12:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapOnEmailContinueButton -->
+        <test-method status="PASS" signature="checkSweepstakePasswordScreenUI()[pri:9, instance:Sweepstakes@57e1b0c]" name="checkSweepstakePasswordScreenUI" duration-ms="2316" started-at="2019-03-15T12:48:38Z" finished-at="2019-03-15T12:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSweepstakePasswordScreenUI -->
+        <test-method status="PASS" signature="enterPassword()[pri:10, instance:Sweepstakes@57e1b0c]" name="enterPassword" duration-ms="6580" started-at="2019-03-15T12:48:40Z" finished-at="2019-03-15T12:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword -->
+        <test-method status="PASS" signature="tapOnPasswordContinueButton()[pri:11, instance:Sweepstakes@57e1b0c]" name="tapOnPasswordContinueButton" duration-ms="950" started-at="2019-03-15T12:48:47Z" finished-at="2019-03-15T12:48:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapOnPasswordContinueButton -->
+        <test-method status="PASS" signature="checkWhoAreYouScreenUI()[pri:12, instance:Sweepstakes@57e1b0c]" name="checkWhoAreYouScreenUI" duration-ms="8523" started-at="2019-03-15T12:48:48Z" finished-at="2019-03-15T12:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWhoAreYouScreenUI -->
+        <test-method status="PASS" signature="checkWhoAreYouScreenUI2()[pri:13, instance:Sweepstakes@57e1b0c]" name="checkWhoAreYouScreenUI2" duration-ms="1458" started-at="2019-03-15T12:48:56Z" finished-at="2019-03-15T12:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWhoAreYouScreenUI2 -->
+        <test-method status="PASS" signature="tapOnSkillLevel()[pri:14, instance:Sweepstakes@57e1b0c]" name="tapOnSkillLevel" duration-ms="4620" started-at="2019-03-15T12:48:58Z" finished-at="2019-03-15T12:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapOnSkillLevel -->
+        <test-method status="PASS" signature="tapOnFrequencyLevel()[pri:15, instance:Sweepstakes@57e1b0c]" name="tapOnFrequencyLevel" duration-ms="4431" started-at="2019-03-15T12:49:02Z" finished-at="2019-03-15T12:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapOnFrequencyLevel -->
+        <test-method status="PASS" signature="tapOnHandicapLevel()[pri:16, instance:Sweepstakes@57e1b0c]" name="tapOnHandicapLevel" duration-ms="4670" started-at="2019-03-15T12:49:07Z" finished-at="2019-03-15T12:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapOnHandicapLevel -->
+        <test-method status="PASS" signature="tapOnContinueButton()[pri:17, instance:Sweepstakes@57e1b0c]" name="tapOnContinueButton" duration-ms="2216" started-at="2019-03-15T12:49:11Z" finished-at="2019-03-15T12:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapOnContinueButton -->
+        <test-method status="PASS" signature="tapOnGoHomeButton()[pri:18, instance:Sweepstakes@57e1b0c]" name="tapOnGoHomeButton" duration-ms="2187" started-at="2019-03-15T12:49:14Z" finished-at="2019-03-15T12:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapOnGoHomeButton -->
+        <test-method status="PASS" signature="HomeScreenViewChecked()[pri:19, instance:Sweepstakes@57e1b0c]" name="HomeScreenViewChecked" duration-ms="2147" started-at="2019-03-15T12:49:16Z" finished-at="2019-03-15T12:49:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomeScreenViewChecked -->
-        <test-method status="PASS" signature="TapOnWeatherIcon()[pri:2, instance:HomeScreen@6ee52dcd]" name="TapOnWeatherIcon" duration-ms="854" started-at="2019-01-07T15:20:50Z" finished-at="2019-01-07T15:20:51Z">
+        <test-method status="PASS" signature="checkSweepstakesBannerIsDisplayed()[pri:20, instance:Sweepstakes@57e1b0c]" name="checkSweepstakesBannerIsDisplayed" duration-ms="280" started-at="2019-03-15T12:49:18Z" finished-at="2019-03-15T12:49:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TapOnWeatherIcon -->
+        </test-method> <!-- checkSweepstakesBannerIsDisplayed -->
+        <test-method status="PASS" signature="tapOnSweepstakesBanner2()[pri:21, instance:Sweepstakes@57e1b0c]" name="tapOnSweepstakesBanner2" duration-ms="609" started-at="2019-03-15T12:49:18Z" finished-at="2019-03-15T12:49:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tapOnSweepstakesBanner2 -->
+        <test-method status="PASS" signature="checkEnterButtonIsDisplayed()[pri:22, instance:Sweepstakes@57e1b0c]" name="checkEnterButtonIsDisplayed" duration-ms="1501" started-at="2019-03-15T12:49:19Z" finished-at="2019-03-15T12:49:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEnterButtonIsDisplayed -->
+      </class> <!-- Sweepstakes -->
+      <class name="HomeScreen">
+        <test-method status="PASS" signature="setup()[pri:0, instance:HomeScreen@2781e022]" name="setup" is-config="true" duration-ms="17734" started-at="2019-03-15T12:48:07Z" finished-at="2019-03-15T12:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="HomeScreenViewChecked()[pri:1, instance:HomeScreen@2781e022]" name="HomeScreenViewChecked" duration-ms="1264" started-at="2019-03-15T12:48:25Z" finished-at="2019-03-15T12:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeScreenViewChecked -->
+        <test-method status="PASS" signature="checkSweepstakesBannerIsDisplayed()[pri:2, instance:HomeScreen@2781e022]" name="checkSweepstakesBannerIsDisplayed" duration-ms="271" started-at="2019-03-15T12:48:26Z" finished-at="2019-03-15T12:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSweepstakesBannerIsDisplayed -->
       </class> <!-- HomeScreen -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
