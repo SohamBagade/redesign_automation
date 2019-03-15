@@ -3,15 +3,22 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="CityResultScreen">
+      <class name="HomeScreen">
         <methods>
-          <include name="verifyFavIconFunctionality"/>
-          <include name="lOGIN"/>
-          <include name="verifySearchCityScreen"/>
+          <include name="verifySearchEditTextFunctionality"/>
+          <include name="verifyClearTextFunctionality"/>
+          <include name="checkNewDateIsApplied"/>
+          <include name="verifyCalenderOpenFunctionality"/>
           <include name="setup"/>
-          <include name="verifyNotificationIconFunctionality"/>
+          <include name="selectNextDateFunctionality"/>
+          <include name="checkViewBookTeeTimeSection"/>
+          <include name="verifyBackArrowFunctionality"/>
+          <include name="selectPlayerOption"/>
+          <include name="tapOnWeatherCloseIcon"/>
+          <include name="tapOnWeatherIcon"/>
+          <include name="verifySearchButtonFunctionality"/>
         </methods>
-      </class> <!-- CityResultScreen -->
+      </class> <!-- HomeScreen -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="HomeScreen">
         <methods>
+          <include name="verifySearchEditTextFunctionality"/>
+          <include name="verifyClearTextFunctionality"/>
+          <include name="checkNewDateIsApplied"/>
+          <include name="verifyCalenderOpenFunctionality"/>
           <include name="setup"/>
+          <include name="selectNextDateFunctionality"/>
+          <include name="checkViewBookTeeTimeSection"/>
+          <include name="verifyBackArrowFunctionality"/>
+          <include name="selectPlayerOption"/>
           <include name="tapOnWeatherCloseIcon"/>
           <include name="tapOnWeatherIcon"/>
+          <include name="verifySearchButtonFunctionality"/>
         </methods>
       </class> <!-- HomeScreen -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
